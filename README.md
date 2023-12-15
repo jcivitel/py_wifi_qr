@@ -1,18 +1,37 @@
-# py_wifi_qr
-### What is the goal of the project? ###
-The purpose of the script is to generate QR codes in order to be able to log on to a wifi more easily via smartphone.
+[![](https://img.shields.io/maintenance/yes/2024)](https://github.com/jcivitel/)
+[![Static Badge](https://img.shields.io/badge/GitHub-jcivitell-green?logo=github)](https://github.com/jcivitel/py_wifi_qr)
+[![GitHub Repo stars](https://img.shields.io/github/stars/jcivitel/py_wifi_qr)](https://github.com/jcivitel/py_wifi_qr)
+[![GitHub License](https://img.shields.io/github/license/jcivitel/py_wifi_qr)](https://github.com/jcivitel/py_wifi_qr)
+
+# What is the goal of the project? #
+A QR code offers a quick and user-friendly way to connect devices to a network. Simply scanning the code eliminates the need to manually enter the SSID and password, saving time and minimizing errors. The use of encrypted information in the QR code improves security, while automated configurations simplify setup.
+
 ### How to install the project? ###
-* first clone the repo to a local directory.
+1. First clone the repository to a local directory on your computer.
+```console
+git clone https://github.com/jcivitel/py_wifi_qr.git
+```
 
-* open a CMD and execute the following command in the directory:
-`python -m venv venv`
+2. Open a Command Prompt (CMD) and execute the following command in the directory:
+```python
+python -m venv venv
+```
 
-* After that execute this in a Python console:
-\
-`. /venv/bin/activate`
-\
-`pip install -r reqirements.txt`
+3. In this step, you need to install the required python packages to provide the script with all it dependencies:
+```python
+. venv/bin/activate
+pip install -r reqirements.txt
+```
 
-* after installing the required packages run the script:
-`python main.py <SSID> <KEY>`
-* the script generates a PNG file in your project files with the QR-Code
+4. After installing the required packages, you can run the script with your `<SSID>` and password as `<KEY>`:
+```python
+python main.py <SSID> <KEY>
+```
+
+5. The script generates a QR code, which is opened directly with your standard image program.
+![Test-WiFi](docs/Test-WiFi.png)
+
+---
+
+## Contributors
+[![Contributors Display](https://badges.pufler.dev/contributors/jcivitel/garrysmod?size=50&padding=5&bots=false)](https://github.com/jcivitel/py_wifi_qr/graphs/contributors)
