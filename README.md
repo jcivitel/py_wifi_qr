@@ -29,7 +29,7 @@ python main.py <SSID> <KEY>
 ```
 
 5. The script generates a QR code, which is opened directly with your standard image program.
-![Test-WiFi](docs/Test-WiFi.png)
+<img src="docs/Test-WiFi.png" width= 220>
 
 ---
 
