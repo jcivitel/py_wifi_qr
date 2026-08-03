@@ -1,4 +1,4 @@
-[![](https://img.shields.io/maintenance/yes/2024)](https://github.com/jcivitel/)
+[![](https://img.shields.io/maintenance/yes/2026)](https://github.com/jcivitel/)
 [![Static Badge](https://img.shields.io/badge/GitHub-jcivitell-green?logo=github)](https://github.com/jcivitel/py_wifi_qr)
 [![GitHub Repo stars](https://img.shields.io/github/stars/jcivitel/py_wifi_qr)](https://github.com/jcivitel/py_wifi_qr)
 [![GitHub License](https://img.shields.io/github/license/jcivitel/py_wifi_qr)](https://github.com/jcivitel/py_wifi_qr)
